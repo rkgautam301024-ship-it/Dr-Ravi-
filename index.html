@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dr. Ravi Gautam Orthopaedic Clinic — Portfolio Demo Website</title>
+  <meta name="description" content="Portfolio demo website for a premium orthopaedic clinic concept, built by Ravi Gautam to showcase web design and development work. Not an active medical practice.">
+  <link rel="canonical" href="https://example.com/dr-ravi-gautam-clinic/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Dr. Ravi Gautam Orthopaedic Clinic — Portfolio Demo Website">
+  <meta property="og:description" content="A sample orthopaedic clinic website created as a web design and development portfolio demo. Not an active medical practice.">
+  <meta property="og:image" content="assets/doctor-photo.jpg">
+  <meta property="og:url" content="https://example.com/dr-ravi-gautam-clinic/">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <!--
+    NOTE ON STRUCTURED DATA:
+    No LocalBusiness / MedicalClinic JSON-LD schema is included on purpose.
+    Adding that schema would tell search engines this is a real, operating clinic,
+    which would misrepresent a portfolio demo. Add real structured data only when
+    this template is adapted for a verified, real clinic client.
+  -->
+</head>
+<body>
+
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <!-- ===================== HEADER ===================== -->
+  <header class="site-header" id="site-header">
+    <div class="header-inner">
+      <a href="#home" class="logo-link" aria-label="Dr. Ravi Gautam Orthopaedic Clinic — home">
+        <img src="assets/logo.svg" alt="Dr. Ravi Gautam Orthopaedic Clinic logo" class="logo-mark" width="40" height="40">
+        <span class="logo-text">Dr. Ravi Gautam<br><small>Orthopaedic Clinic</small></span>
+      </a>
+
+      <nav class="main-nav" id="main-nav" aria-label="Primary">
+        <ul>
+          <li><a href="#home" data-nav-link>Home</a></li>
+          <li><a href="#about" data-nav-link>About</a></li>
+          <li><a href="#services" data-nav-link>Services</a></li>
+          <li><a href="#profile" data-nav-link>Professional Profile</a></li>
+          <li><a href="#timings" data-nav-link>Timings</a></li>
+          <li><a href="#faq" data-nav-link>FAQ</a></li>
+          <li><a href="#contact" data-nav-link>Contact</a></li>
+        </ul>
+      </nav>
+
+      <a href="#appointment" class="btn btn-primary header-cta">Book an Appointment</a>
+
+      <button class="hamburger" id="hamburger-btn" aria-expanded="false" aria-controls="main-nav" aria-label="Open navigation menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===================== DEMO NOTICE BANNER ===================== -->
+  <div class="demo-banner" role="note" aria-label="Demo website notice">
+    <p class="demo-banner__headline">PORTFOLIO DEMO WEBSITE — NOT AN ACTIVE MEDICAL PRACTICE</p>
+    <p class="demo-banner__text">
+      This website is a sample project created to demonstrate website design and development.
+      Doctor credentials, clinic details, services and appointment information are illustrative
+      and have not been independently verified.
+    </p>
+  </div>
+
+  <main id="main-content">
+
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" id="home">
+      <div class="hero-inner">
+        <div class="hero-content" data-reveal>
+          <h1 class="hero-headline">Dedicated to Better Bone and Joint Health.</h1>
+          <p class="hero-subhead">Expert Orthopaedic Care for a Healthier, More Active Life.</p>
+          <p class="hero-name">Dr. Ravi Gautam <span class="qualification">MBBS, MS (Orthopaedics)*</span></p>
+          <div class="hero-ctas">
+            <a href="#appointment" class="btn btn-primary">Book an Appointment</a>
+            <a href="#services" class="btn btn-secondary">Explore Services</a>
+          </div>
+          <p class="hero-footnote">*Illustrative demo qualification — part of a portfolio sample, not a verified credential.</p>
+        </div>
+        <div class="hero-image" data-reveal-image>
+          <img src="assets/doctor-photo.jpg" alt="Portrait of Dr. Ravi Gautam in a white coat with a stethoscope, used as sample imagery for this demo website" width="900" height="1100">
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== ABOUT ===================== -->
+    <section class="section about" id="about">
+      <div class="section-inner about-grid">
+        <div class="about-image">
+          <img src="assets/doctor-photo.jpg" alt="Dr. Ravi Gautam, demo portrait" width="500" height="600" loading="lazy">
+        </div>
+        <div class="about-content">
+          <h2>About Dr. Ravi Gautam</h2>
+          <p class="qualification-line">MBBS, MS (Orthopaedics) <span class="tag">Demo qualification — illustrative only</span></p>
+          <p>
+            This profile presents a sample orthopaedic practice focused on general orthopaedics —
+            built to show how a clinic website can introduce a doctor, explain their approach, and
+            make it easy for a patient to get in touch. The details below are demo content, written
+            to show the structure and tone a real clinic profile could use.
+          </p>
+          <h3>Professional Philosophy</h3>
+          <ul class="philosophy-list">
+            <li>Patient-Centred Care</li>
+            <li>Accurate Diagnosis</li>
+            <li>Ethical Medical Practice</li>
+            <li>Compassion &amp; Trust</li>
+            <li>Affordable Healthcare</li>
+            <li>Clear Patient Communication</li>
+            <li>Long-Term Bone &amp; Joint Health</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SERVICES ===================== -->
+    <section class="section services" id="services">
+      <div class="section-inner">
+        <h2>Medical Services</h2>
+        <p class="section-lead">A sample list of orthopaedic services, shown here to demonstrate layout and content structure.</p>
+
+        <ul class="services-list">
+          <li class="service-item">
+            <svg class="service-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 2L4 7v10l8 5 8-5V7l-8-5zM12 4.4L18 8v8l-6 3.6L6 16V8l6-3.6z"/><path d="M9 11h2v2H9zM13 11h2v2h-2z"/></svg>
+            <h3>Fracture &amp; Trauma Care</h3>
+            <p>General information and consultation around fracture assessment and trauma-related bone injuries.</p>
+          </li>
+          <li class="service-item">
+            <svg class="service-icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M12 7v5l3 3" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+            <h3>Bone &amp; Joint Disorders</h3>
+            <p>Consultation for ongoing bone and joint concerns, including stiffness, swelling and reduced mobility.</p>
+          </li>
+          <li class="service-item">
+            <svg class="service-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 21s-7-4.35-9.5-8.5C.5 8.5 3 5 6.5 5 9 5 11 7 12 8c1-1 3-3 5.5-3 3.5 0 6 3.5 4 7.5C19 16.65 12 21 12 21z" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+            <h3>Knee Pain Treatment</h3>
+            <p>Assessment and general guidance for knee pain, swelling, and movement-related discomfort.</p>
+          </li>
+          <li class="service-item">
+            <svg class="service-icon" aria-hidden="true" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 12h8M12 8v8" stroke="currentColor" stroke-width="1.5"/></svg>
+            <h3>General Orthopaedic Consultation</h3>
+            <p>A starting point for any bone, joint, or muscle concern that needs a first opinion.</p>
+          </li>
+          <li class="service-item">
+            <svg class="service-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3a9 9 0 100 18 9 9 0 000-18z" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 12h8" stroke="currentColor" stroke-width="1.5"/></svg>
+            <h3>Hip Pain Treatment</h3>
+            <p>Evaluation of hip discomfort and mobility concerns, with general treatment guidance.</p>
+          </li>
+          <li class="service-item">
+            <svg class="service-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M4 20l6-6M14 10l6-6M9 9l6 6" stroke="currentColor" stroke-width="1.5" fill="none"/></svg>
+            <h3>Sports Injury Treatment</h3>
+            <p>Support for sprains, strains and activity-related injuries affecting bones and joints.</p>
+          </li>
+          <li class="service-item">
+            <svg class="service-icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="7" r="3" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M6 21v-2a6 6 0 0112 0v2" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+            <h3>Paediatric Orthopaedics</h3>
+            <p>General orthopaedic guidance for children's bone growth and development concerns.</p>
+          </li>
+          <li class="service-item">
+            <svg class="service-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M6 4v16M18 4v16M6 12h12" stroke="currentColor" stroke-width="1.5"/></svg>
+            <h3>Joint Replacement Consultation</h3>
+            <p>Initial discussion and guidance for patients exploring joint replacement options.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===================== PROFESSIONAL PROFILE ===================== -->
+    <section class="section profile" id="profile">
+      <div class="section-inner">
+        <h2>Professional Profile</h2>
+        <div class="profile-card">
+          <dl class="profile-list">
+            <div><dt>Name</dt><dd>Dr. Ravi Gautam</dd></div>
+            <div><dt>Qualification</dt><dd>MBBS, MS (Orthopaedics) <span class="tag">demo content</span></dd></div>
+            <div><dt>Specialization</dt><dd>General Orthopaedics</dd></div>
+            <div><dt>Areas of Clinical Interest</dt><dd>Fracture care, joint pain, sports injuries, paediatric orthopaedics</dd></div>
+            <div><dt>Patient Communication</dt><dd>Clear, unhurried explanations in plain language, with time for questions</dd></div>
+          </dl>
+          <p class="profile-disclaimer">
+            This profile intentionally omits registration numbers, hospital affiliations, years of
+            experience, and awards, since none of this information has been supplied or verified
+            for this demo.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== TIMINGS ===================== -->
+    <section class="section timings" id="timings">
+      <div class="section-inner">
+        <h2>Clinic Timings</h2>
+        <table class="timings-table">
+          <caption class="sr-only">Demo clinic opening hours</caption>
+          <tbody>
+            <tr><th scope="row">Monday – Saturday</th><td>10:00 AM – 08:00 PM</td></tr>
+            <tr><th scope="row">Sunday</th><td>Closed</td></tr>
+            <tr><th scope="row">Break</th><td>No break</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- ===================== APPOINTMENT ===================== -->
+    <section class="section appointment" id="appointment">
+      <div class="section-inner">
+        <h2>Request a Demo Appointment</h2>
+        <p class="section-lead">
+          This form prepares a WhatsApp message for demonstration purposes only. It does not book
+          a real appointment and is not reviewed by a medical professional.
+        </p>
+
+        <form id="appointment-form" class="appointment-form" novalidate>
+          <div class="form-row">
+            <label for="field-name">Patient Full Name</label>
+            <input type="text" id="field-name" name="name" required autocomplete="name">
+            <span class="field-error" id="error-name" role="alert"></span>
+          </div>
+
+          <div class="form-row">
+            <label for="field-mobile">Mobile Number</label>
+            <input type="tel" id="field-mobile" name="mobile" required inputmode="numeric" pattern="[0-9]{10}" placeholder="10-digit mobile number" autocomplete="tel">
+            <span class="field-error" id="error-mobile" role="alert"></span>
+          </div>
+
+          <div class="form-row form-row--split">
+            <div>
+              <label for="field-age">Age</label>
+              <input type="number" id="field-age" name="age" min="0" max="120" required>
+              <span class="field-error" id="error-age" role="alert"></span>
+            </div>
+            <div>
+              <label for="field-gender">Gender</label>
+              <select id="field-gender" name="gender" required>
+                <option value="">Select</option>
+                <option value="Female">Female</option>
+                <option value="Male">Male</option>
+                <option value="Other">Other</option>
+                <option value="Prefer not to say">Prefer not to say</option>
+              </select>
+              <span class="field-error" id="error-gender" role="alert"></span>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <label for="field-problem">Select Medical Problem</label>
+            <select id="field-problem" name="problem" required>
+              <option value="">Select a concern</option>
+              <option>Fracture / Trauma</option>
+              <option>Knee Pain</option>
+              <option>Hip Pain</option>
+              <option>Sports Injury</option>
+              <option>Joint Pain</option>
+              <option>Paediatric Orthopaedic Concern</option>
+              <option>Other / Not Sure</option>
+            </select>
+            <span class="field-error" id="error-problem" role="alert"></span>
+          </div>
+
+          <div class="form-row">
+            <label for="field-symptoms">Describe Your Symptoms</label>
+            <textarea id="field-symptoms" name="symptoms" rows="4" required></textarea>
+            <span class="field-error" id="error-symptoms" role="alert"></span>
+          </div>
+
+          <div class="form-row form-row--split">
+            <div>
+              <label for="field-date">Preferred Appointment Date</label>
+              <input type="date" id="field-date" name="date" required>
+              <span class="field-error" id="error-date" role="alert"></span>
+            </div>
+            <div>
+              <label for="field-time">Preferred Appointment Time</label>
+              <input type="time" id="field-time" name="time" required>
+              <span class="field-error" id="error-time" role="alert"></span>
+            </div>
+          </div>
+
+          <div class="form-row form-row--consent">
+            <label class="checkbox-label">
+              <input type="checkbox" id="field-consent" name="consent" required>
+              I understand this is a demo enquiry for a portfolio website, not a real medical
+              appointment, and that my information will only be used to generate a WhatsApp message.
+            </label>
+            <span class="field-error" id="error-consent" role="alert"></span>
+          </div>
+
+          <p class="form-privacy-note">
+            Submitting this form does not confirm an appointment. No information is stored on this
+            site or sent to any analytics service — it is only used to prefill a WhatsApp message
+            that you review and send yourself.
+          </p>
+
+          <button type="submit" class="btn btn-primary" id="appointment-submit">
+            <span class="btn-text">Prepare WhatsApp Message</span>
+          </button>
+
+          <div class="form-confirmation" id="form-confirmation" role="status" hidden>
+            WhatsApp should now be open with your demo enquiry prefilled. Review it and send it
+            yourself — this is a demo flow, so no appointment has been booked.
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- ===================== FAQ ===================== -->
+    <section class="section faq" id="faq">
+      <div class="section-inner">
+        <h2>Frequently Asked Questions</h2>
+        <div class="accordion">
+          <div class="accordion-item">
+            <h3>
+              <button class="accordion-trigger" aria-expanded="false">What conditions does an orthopaedic doctor treat?</button>
+            </h3>
+            <div class="accordion-panel">
+              <p>Orthopaedic doctors generally treat conditions affecting bones, joints, ligaments, tendons and muscles — such as fractures, arthritis, sports injuries, and joint pain.</p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3>
+              <button class="accordion-trigger" aria-expanded="false">How can I request an appointment?</button>
+            </h3>
+            <div class="accordion-panel">
+              <p>Use the appointment form on this demo site, which prepares a WhatsApp message for you to review and send. On a real clinic site, this same flow would be connected to an actual booking system.</p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3>
+              <button class="accordion-trigger" aria-expanded="false">What should I bring to an orthopaedic consultation?</button>
+            </h3>
+            <div class="accordion-panel">
+              <p>Typically, patients bring prior test reports, scans, a list of current medications, and a summary of their symptoms and when they started.</p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3>
+              <button class="accordion-trigger" aria-expanded="false">Do I need an appointment before visiting?</button>
+            </h3>
+            <div class="accordion-panel">
+              <p>Most clinics prefer a scheduled appointment to reduce waiting time, though this varies by practice.</p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3>
+              <button class="accordion-trigger" aria-expanded="false">What should I do in case of a medical emergency?</button>
+            </h3>
+            <div class="accordion-panel">
+              <p>This is a demo website and cannot provide emergency medical advice. In a genuine emergency, contact local emergency services or go to the nearest hospital immediately.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACT ===================== -->
+    <section class="section contact" id="contact">
+      <div class="section-inner contact-grid">
+        <div>
+          <h2>Contact</h2>
+          <p class="demo-address-note">Demo Address — Gorakhpur, Uttar Pradesh (illustrative only; not a real clinic location).</p>
+          <ul class="contact-list">
+            <li>
+              <a href="tel:+919648938691">Call: +91 96489 38691</a>
+            </li>
+            <li>
+              <a href="https://wa.me/919648938691?text=Hello%2C%20this%20is%20a%20demo%20enquiry%20from%20your%20portfolio%20website." target="_blank" rel="noopener">WhatsApp: +91 96489 38691</a>
+            </li>
+            <li>
+              <a href="mailto:ravikumargautam320@gmail.com">ravikumargautam320@gmail.com</a>
+            </li>
+            <li>
+              <a href="https://www.google.com/maps/search/?api=1&query=Gorakhpur+Uttar+Pradesh" target="_blank" rel="noopener">View Gorakhpur on Google Maps</a>
+            </li>
+          </ul>
+        </div>
+        <div class="contact-cta-card">
+          <p>Ready to see a working example like this for your own clinic or business?</p>
+          <a href="https://wa.me/919648938691?text=Hi%20Ravi%2C%20I%20saw%20your%20demo%20clinic%20website%20and%20want%20to%20discuss%20a%20project." target="_blank" rel="noopener" class="btn btn-secondary">Message Ravi on WhatsApp</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-col">
+        <h4>Dr. Ravi Gautam</h4>
+        <p>MBBS, MS (Orthopaedics) — demo qualification</p>
+        <p>Dr. Ravi Gautam Orthopaedic Clinic</p>
+        <p>Demo Address, Gorakhpur, Uttar Pradesh</p>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <p><a href="tel:+919648938691">+91 96489 38691</a></p>
+        <p><a href="mailto:ravikumargautam320@gmail.com">ravikumargautam320@gmail.com</a></p>
+        <p>Mon–Sat: 10:00 AM – 08:00 PM · Sun: Closed</p>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#appointment">Appointment</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <ul class="footer-links">
+          <li><button class="link-button" data-dialog-open="dialog-privacy">Privacy Policy</button></li>
+          <li><button class="link-button" data-dialog-open="dialog-terms">Terms &amp; Conditions</button></li>
+          <li><button class="link-button" data-dialog-open="dialog-disclaimer">Medical Disclaimer</button></li>
+        </ul>
+        <!-- Social icons hidden until real profile URLs are supplied -->
+        <div class="social-icons" hidden aria-hidden="true"></div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>This is a portfolio demo website. Credentials, services and appointment details are illustrative and unverified.</p>
+      <p>Website Design &amp; Development Demo by Ravi Gautam.</p>
+      <p>&copy; <span id="footer-year">2026</span> Dr. Ravi Gautam Orthopaedic Clinic — Demo Project.</p>
+    </div>
+  </footer>
+
+  <!-- ===================== LEGAL DIALOGS ===================== -->
+  <dialog id="dialog-privacy" class="legal-dialog">
+    <h2>Privacy Policy (Demo)</h2>
+    <p>This demo website does not store appointment form data in localStorage or send it to any analytics or tracking service. Form data is only used in-browser to generate a WhatsApp message link that you choose to send.</p>
+    <button class="btn btn-secondary" data-dialog-close>Close</button>
+  </dialog>
+
+  <dialog id="dialog-terms" class="legal-dialog">
+    <h2>Terms &amp; Conditions (Demo)</h2>
+    <p>This website is a non-commercial portfolio demonstration. It does not represent a real, operating medical clinic, and nothing on it constitutes a binding appointment, medical service, or professional relationship.</p>
+    <button class="btn btn-secondary" data-dialog-close>Close</button>
+  </dialog>
+
+  <dialog id="dialog-disclaimer" class="legal-dialog">
+    <h2>Medical Disclaimer (Demo)</h2>
+    <p>Content on this site is illustrative sample copy, not medical advice. Credentials shown are demo content and have not been independently verified. For real medical concerns, consult a qualified, registered medical professional, and in an emergency contact local emergency services immediately.</p>
+    <button class="btn btn-secondary" data-dialog-close>Close</button>
+  </dialog>
+
+  <!-- ===================== FLOATING ELEMENTS ===================== -->
+  <a href="https://wa.me/919648938691?text=Hello%2C%20this%20is%20a%20demo%20enquiry%20from%20your%20portfolio%20website." target="_blank" rel="noopener" class="floating-whatsapp" aria-label="Message on WhatsApp (demo enquiry)">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 00-8.6 15L2 22l5.2-1.4A10 10 0 1012 2zm0 18a8 8 0 01-4.1-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8 8 0 1112 20zm4.4-5.9c-.2-.1-1.4-.7-1.6-.8-.2-.1-.4-.1-.5.1-.2.2-.6.8-.8 1-.1.2-.3.2-.5.1-1.3-.6-2.1-1.1-3-2.5-.2-.4.2-.4.6-1.2.1-.2 0-.3 0-.4-.1-.1-.5-1.2-.7-1.7-.2-.4-.4-.4-.5-.4h-.5c-.2 0-.4.1-.6.3-.2.2-.8.8-.8 2s.9 2.3 1 2.5c.1.2 1.8 2.8 4.4 3.8.6.3 1.1.4 1.5.5.6.2 1.2.2 1.6.1.5-.1 1.4-.6 1.6-1.1.2-.5.2-1 .1-1.1-.1-.1-.2-.2-.4-.3z"/></svg>
+  </a>
+
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top" hidden>↑</button>
+
+  <script src="js/script.js" defer></script>
+</body>
+</html>
